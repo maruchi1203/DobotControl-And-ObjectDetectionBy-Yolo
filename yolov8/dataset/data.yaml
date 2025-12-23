@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Brown_Waper', 'Not_Square', 'Orange_Waper', 'Square']
+
+roboflow:
+  workspace: 1-pn5af
+  project: waper-detection-shape-color-gxbmp
+  version: 12
+  license: Public Domain
+  url: https://universe.roboflow.com/1-pn5af/waper-detection-shape-color-gxbmp/dataset/12
